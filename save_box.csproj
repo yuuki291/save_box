@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework><!-- netcoreのバージョン -->
+    <UseWPF>true</UseWPF><!-- tureで Project Sdkを参照することができる。 -->
+  </PropertyGroup>
+   <!-- iconの設定 -->
+    <PropertyGroup>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
+
+</Project>
